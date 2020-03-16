@@ -1,0 +1,7 @@
+/home/sebastian/Documents/Universidad/embebidos/talleres/5-CMake/Ejemplo/helloworld/build/CMakeFiles/install/strip.dir
+/home/sebastian/Documents/Universidad/embebidos/talleres/5-CMake/Ejemplo/helloworld/build/CMakeFiles/edit_cache.dir
+/home/sebastian/Documents/Universidad/embebidos/talleres/5-CMake/Ejemplo/helloworld/build/CMakeFiles/hello.dir
+/home/sebastian/Documents/Universidad/embebidos/talleres/5-CMake/Ejemplo/helloworld/build/CMakeFiles/rebuild_cache.dir
+/home/sebastian/Documents/Universidad/embebidos/talleres/5-CMake/Ejemplo/helloworld/build/CMakeFiles/list_install_components.dir
+/home/sebastian/Documents/Universidad/embebidos/talleres/5-CMake/Ejemplo/helloworld/build/CMakeFiles/install/local.dir
+/home/sebastian/Documents/Universidad/embebidos/talleres/5-CMake/Ejemplo/helloworld/build/CMakeFiles/install.dir

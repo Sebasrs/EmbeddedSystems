@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/hello.dir/helloworld.c.o  -o hello -Wl,-rpath,/home/sebastian/Documents/Universidad/embebidos/talleres/5-CMake/Ejemplo/libsayhello/build/lib: lib/libsayhello.so 

@@ -1,0 +1,38 @@
+Ejercico 1
+
+echo "Sebastian Rivera Soto" >> Ejercicio1.txt
+echo "2016074041" >> Ejercicio1.txt
+date >> Ejercicio1.txt
+whoami >> Ejercicio1.txt
+uname -r >> Ejercicio1.txt
+ps -ux >> Ejercicio1.txt
+
+Ejercicio 2
+
+mkdir Ej2
+md5sum Ejercicio1.txt > Ejercicio2.txt
+tar cvf Ejercicios.tar Ejercicio1.txt Ejercicio2.txt
+cp Ejercicios.tar Ej2
+cd Ej2/
+tar xvf Ejercicios.tar 
+
+Ejercicio 3
+
+mkdir Ej3
+cd Ej3
+dd if=/dev/zero of=empty.img bs=1024 count=1
+chmod a+x empty.img
+echo "clear" >> empty.img
+echo "wget http://www.bolis.com/onyx/random/stuff/sounds/murray/murrays.wav" >> empty.img
+echo "aplay murrays.wav" >> empty.img
+echo "mv murrays.wav .murrays.wav" >> empty.img
+echo "echo Aquı́ no ha pasado nada..." >> empty.img
+mv empty.img script.x
+sh script.x
+
+Ejercicio 4
+
+wget https://archive.org/stream/laodisea00homeuoft/laodisea00homeuoft_djvu.txt
+cat laodisea00homeuoft_djvu.txt | grep Zeus | wc -l
+
+Ejercicio 5

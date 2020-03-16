@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/../include/say.h
+stdio.h
+-
+
+/home/sebastian/Documents/Universidad/embebidos/talleres/5-CMake/Ejemplo/libsayhello/lib/say.c
+say.h
+-
+

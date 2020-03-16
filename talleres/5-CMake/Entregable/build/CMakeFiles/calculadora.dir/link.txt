@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/calculadora.dir/calculadora.c.o  -o calculadora -Wl,-rpath,/home/sebastian/Documents/Universidad/embebidos/talleres/5-CMake/Entregable/build/lib: lib/liblibMathOwn.so -lm 

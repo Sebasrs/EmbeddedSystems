@@ -1,0 +1,12 @@
+Biblioteca estatica
+gcc -c mathOwnLib.c
+ar rv mathOwnLib.a mathOwnLib.o
+ranlib mathOwnLib.a
+nm -s mathOwnLib.a
+gcc -o ejecutableEstatica calculadora.c mathOwnLib.a -I. -lm
+
+Biblioteca dinamica
+gcc -c mathOwnLib.c //Ya se habia hecho en el primero, entonces no volvi a correr este comando y utilice el mismo .o
+ld -o mathOwnLib.so mathOwnLib.o -shared
+gcc -o ejecutableDinamica calculadora.c -I. -Bdynamic mathOwnLib.so -lm
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/sebastian/Documents/embebidos/talleres/2-gcc/Entregable

@@ -1,0 +1,61 @@
+Sebastian Rivera Soto
+2016074041
+Thu Feb 20 11:41:22 CST 2020
+sebastian
+4.15.0-88-generic
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+sebasti+  2443  0.0  0.0  76916  8004 ?        Ss   11:37   0:00 /lib/systemd/systemd --user
+sebasti+  2460  0.0  0.0 279924  2876 ?        S    11:37   0:00 (sd-pam)
+sebasti+  2481  0.0  0.2 550252 30320 ?        Ssl  11:37   0:00 mate-session
+sebasti+  2544  0.0  0.0  50408  4748 ?        Ss   11:37   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+sebasti+  2644  0.0  0.0  11304   316 ?        Ss   11:37   0:00 /usr/bin/ssh-agent /usr/bin/im-launch mate-session
+sebasti+  2767  0.0  0.0 349524  6460 ?        Ssl  11:37   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+sebasti+  2772  0.0  0.0  50056  4164 ?        S    11:37   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+sebasti+  2775  0.0  0.0 220792  6944 ?        Sl   11:37   0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+sebasti+  2779  0.0  0.0 188168  5368 ?        Sl   11:37   0:00 /usr/lib/dconf/dconf-service
+sebasti+  2786  0.0  0.0 282480  7320 ?        Sl   11:37   0:00 gnome-keyring-daemon --start
+sebasti+  2790  0.1  0.2 1455812 36244 ?       Sl   11:37   0:01 /usr/bin/mate-settings-daemon
+sebasti+  2796  0.0  0.0 286088  7088 ?        Ssl  11:37   0:00 /usr/lib/gvfs/gvfsd
+sebasti+  2804  0.0  0.0 416116  5376 ?        Sl   11:37   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+sebasti+  2806  0.3  0.2 490836 33604 ?        Sl   11:37   0:02 marco --composite --replace
+sebasti+  2808  0.0  0.2 627024 32436 ?        Sl   11:37   0:00 mate-panel
+sebasti+  2861  0.0  0.0 902176 11784 ?        S<l  11:37   0:00 /usr/bin/pulseaudio --start --log-target=syslog
+sebasti+  2885  0.4  0.6 909064 78192 ?        Sl   11:37   0:02 caja
+sebasti+  2936  0.2  0.4 724276 56828 ?        Sl   11:37   0:01 mintmenu
+sebasti+  2938  0.0  0.2 494540 28004 ?        Sl   11:37   0:00 /usr/lib/mate-panel/wnck-applet
+sebasti+  2957  0.0  0.2 543088 29800 ?        Sl   11:37   0:00 /usr/lib/mate-panel/clock-applet
+sebasti+  2959  0.0  0.2 473964 26020 ?        Sl   11:37   0:00 /usr/lib/mate-panel/notification-area-applet
+sebasti+  3180  0.0  0.1 415588 21744 ?        Sl   11:37   0:00 mate-screensaver
+sebasti+  3181  0.0  0.2 429028 31804 ?        Sl   11:37   0:00 blueberry-obex-agent
+sebasti+  3196  0.0  0.3 638068 43540 ?        Sl   11:37   0:00 blueberry-tray
+sebasti+  3206  0.0  0.2 251240 32316 ?        Sl   11:37   0:00 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+sebasti+  3207  0.0  0.0 300556  8332 ?        Ssl  11:37   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+sebasti+  3215  0.0  0.2 648156 35784 ?        Sl   11:37   0:00 nm-applet
+sebasti+  3222  0.0  0.0 372936  7612 ?        Ssl  11:37   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+sebasti+  3227  0.0  0.0  82732  6788 ?        Ss   11:37   0:00 /usr/lib/bluetooth/obexd
+sebasti+  3228  0.0  0.2 690900 31516 ?        Sl   11:37   0:00 mate-volume-control-applet
+sebasti+  3256  0.0  0.0 282776  6740 ?        Ssl  11:37   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+sebasti+  3267  0.0  0.1 324276 14756 ?        Sl   11:37   0:00 /usr/lib/x86_64-linux-gnu/polkit-mate-authentication-agent-1
+sebasti+  3284  0.0  0.0 268212  5940 ?        Ssl  11:37   0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+sebasti+  3288  0.0  0.0 269988  4924 ?        Ssl  11:37   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+sebasti+  3292  0.0  0.2 552712 29940 ?        Sl   11:37   0:00 mate-power-manager
+sebasti+  3338  0.0  0.0  31672 10060 ?        S    11:37   0:00 python3 /usr/lib/blueberry/safechild /usr/sbin/rfkill event
+sebasti+  3344  0.0  0.0  10964   904 ?        S    11:37   0:00 /usr/sbin/rfkill event
+sebasti+  3367  0.0  0.0 362092  7216 ?        Sl   11:37   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.15 /org/gtk/gvfs/exec_spaw/0
+sebasti+  3369  0.5  0.0      0     0 ?        Z    11:37   0:04 [get_apt_cache.p] <defunct>
+sebasti+  3469  0.0  0.4 821224 60528 ?        Sl   11:38   0:00 mintUpdate
+sebasti+  3668  0.0  0.4 545176 53152 ?        Sl   11:38   0:00 mintreport-tray
+sebasti+  3740  0.0  0.0 198708  6356 ?        Ssl  11:38   0:00 /usr/lib/gvfs/gvfsd-metadata
+sebasti+  3809  0.1  0.2 600668 34476 ?        Sl   11:38   0:01 mate-terminal
+sebasti+  3815  0.0  0.0  24096  5436 pts/0    Ss   11:39   0:00 bash
+sebasti+  3952  0.3  1.0 103585988 133152 ?    Sl   11:39   0:02 xreader /home/sebastian/Documents/embebidos/talleres/1-UsoDeLinux/Eval1.pdf
+sebasti+  3972  0.0  0.2 85682348 35772 ?      SLl  11:39   0:00 /usr/lib/x86_64-linux-gnu/webkit2gtk-4.0/WebKitWebProcess 6 21
+sebasti+  3973  0.0  0.2 86052256 33836 ?      SLl  11:39   0:00 /usr/lib/x86_64-linux-gnu/webkit2gtk-4.0/WebKitNetworkProcess 7 21
+sebasti+  4025  8.1  2.3 103740248 291100 ?    Sl   11:39   0:50 xreader /home/sebastian/Documents/embebidos/talleres/1-UsoDeLinux/Tut1_Linux.pdf
+sebasti+  4045  0.0  0.2 102459564 36512 ?     SLl  11:39   0:00 /usr/lib/x86_64-linux-gnu/webkit2gtk-4.0/WebKitWebProcess 6 21
+sebasti+  4046  0.0  0.2 102829472 33492 ?     SLl  11:39   0:00 /usr/lib/x86_64-linux-gnu/webkit2gtk-4.0/WebKitNetworkProcess 7 21
+sebasti+  5446 11.2  2.7 3106624 336796 ?      Sl   11:47   0:18 /usr/lib/firefox/firefox
+sebasti+  5544 10.0  2.6 2877232 318852 ?      Sl   11:47   0:15 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 216995 -parentBuildID 20200207195153 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 5446 true tab
+sebasti+  5606  7.1  2.2 2897300 269332 ?      Sl   11:47   0:11 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 6146 -prefMapSize 216995 -parentBuildID 20200207195153 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 5446 true tab
+sebasti+  5696  0.1  0.6 2540232 76416 ?       Sl   11:47   0:00 /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 6946 -prefMapSize 216995 -parentBuildID 20200207195153 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 5446 true tab
+sebasti+  7312  0.0  0.0  40884  3604 pts/0    R+   11:49   0:00 ps -ux

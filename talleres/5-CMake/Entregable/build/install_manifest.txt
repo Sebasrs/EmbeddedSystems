@@ -1,0 +1,3 @@
+/home/sebastian/Documents/Universidad/embebidos/talleres/5-CMake/Entregable/build/usr/bin/calculadora
+/home/sebastian/Documents/Universidad/embebidos/talleres/5-CMake/Entregable/build/usr/lib/liblibMathOwn.so
+/home/sebastian/Documents/Universidad/embebidos/talleres/5-CMake/Entregable/build/usr/include/libMathOwn.h

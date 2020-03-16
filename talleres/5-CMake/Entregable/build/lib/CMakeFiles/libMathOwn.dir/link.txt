@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC   -shared -Wl,-soname,liblibMathOwn.so -o liblibMathOwn.so CMakeFiles/libMathOwn.dir/libMathOwn.c.o 

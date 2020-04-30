@@ -34,5 +34,3 @@ Ejercicio 4
 
 wget https://archive.org/stream/laodisea00homeuoft/laodisea00homeuoft_djvu.txt
 cat laodisea00homeuoft_djvu.txt | grep Zeus | wc -l
-
-Ejercicio 5

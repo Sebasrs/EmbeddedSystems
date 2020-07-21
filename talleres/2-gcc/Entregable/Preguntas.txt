@@ -1,0 +1,7 @@
+1- Es un conjunto de compiladores creados por el proyecto GNU, requiere un conjunto de aplicaciones conocido como binutil que se encarga de las etapas de compilacion.
+
+2- Preprocesado, compilación, ensamblado y enlazado.
+
+3- gcc -S calculador.c
+
+4- Una biblioteca estática se inserta en el mismo archivo binario en compilación, un dinámica se enlaza el código por medio de una dirección y se busca cuando se va a utilizar.

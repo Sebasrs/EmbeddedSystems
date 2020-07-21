@@ -1,8 +1,12 @@
 1. Una distribución de Linux, es un sistema operativo basado en el núcleo Linux, el cual incluye diferentes paquetes de software instalados, los cuales, normalmente, son de código libre.
 Una distribución puede incluir: Gestores de paquetes, interfaz gráfica amigable, editores de text, compiladores e intérpretes, navegador, visualización de un sistema de archivos.
+
 2. Un shell es un programa que provee una interfaz al usuario para acceder a los servicios del sistema operativo.
+
 3. Una ruta relativa es una ruta que se ve desde mi punto actual, es decir toma como referencia la ruta en la que estoy para hacer sus movimientos y encontrar el archivo deseado.
 Una ruta absoluta es una ruta la cual es más larga y precisa, con esta ruta se encuentran los archivos por medio de la ruta completa en el disco.
+
 4. Brinda información de todas las variables de entorno activas en el sistema.
+
 5. Los pipes en linux logran redirigir la salida de un comando directo a otro, un ejemplo de su utilidad es el siguiente:
 Buscar palabras en un archivo de text con el comando: cat archivo.txt | grep "palabra", se utiliza cat para leer el archivo y el pipe(|) para dirigir la salida a grep, el cual busca las lines que contengan "palabra"

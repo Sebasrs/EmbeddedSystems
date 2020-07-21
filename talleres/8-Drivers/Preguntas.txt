@@ -1,0 +1,3 @@
+Existen dos espacios:
+- Modo Kernel: En este modo se interactúa directamente con el hardware, de manera que todas las operaciones que se quieran realizar sobre él, se hace a través de esta interfaz.
+- Modo Usuario: En este modo se le da una intefaz al usuario, de forma que pueda tener interacción con el hardware.

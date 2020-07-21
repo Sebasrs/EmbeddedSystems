@@ -1,0 +1,7 @@
+1) Primero, en sys/class/gpio se debe de exportar el control del GPIO al usuario, escribiendo su numero a un archivo llamado expot, esto crea una carpeta llamada gpionumero, dentro de esta carpeta se encuentran los archivos, direction y value, los cuales controlan si el GPIO es de entrada o de salida (direction), ademas de contener el estado, alto o bajo, del mismo(value).
+2) Para escribir en un GPIO especifico se utilizan los siguiente comandos, para el ejemplo se utilizara el pin 20, como salida y se le escribira alto(1):
+  - Ir a /sys/class/gpio: $ cd /sys/class/gpio
+  - $ echo 20 > export ## Con esto se crea la carpeta gpio20.
+  - Dentro de la carpeta ($ cd gpio20) se especifica que el pin es de salida: $ echo 1 > direction.
+  - Para escribir un 1 en el pin de salida: $ echo 1 > value.
+  - Para dejar de utiliazr el pin: $ echo 20 > unexport

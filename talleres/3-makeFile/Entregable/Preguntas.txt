@@ -1,0 +1,10 @@
+1- Es un gestor de dependencias que existen en archivos de código fuente, dirige la recompilación o generación automática de ejecutables.
+
+2- Comandos, objetivos y dependencias.
+
+3- Un macro es análogo a tener variables, se escriben en mayuscula, luego para utilizarlos se utiliza $(nombreMacro).
+Ejemplo:
+SOURCE = app
+gcc $(SOURCE)
+
+4- Se vuelve un Makefile más legible, porque el comando del compilador de la máquina objectivo es muy grande. 
